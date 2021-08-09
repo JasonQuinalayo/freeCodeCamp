@@ -1,0 +1,54 @@
+#main {
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  border:2px solid black;
+  height: 400px;
+  width: 320px;
+}
+
+#display {
+  height:40px;
+  width: 290px;
+  border:1px solid black;
+  margin: auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align:right;
+  font-size:30px;
+  padding-right:10px;
+  padding-top:10px;
+}
+
+#buttons {
+  display:flex;
+}
+
+.regularButton {
+  height:64px;
+  width:75px;
+}
+
+.horizontalBig {
+  height:64px;
+  width:150px;
+}
+
+#equals{
+  height:128px;
+  width:75px;
+}
+
+#buttonblock1 {
+  margin-left:10px;
+  margin-bottom:10px;
+  width:225px;
+  height:320px;
+}
+
+#buttonblock2 {
+  margin-right:10px;
+  margin-bottom:10px;
+  width:75px;
+  height:320px;
+}

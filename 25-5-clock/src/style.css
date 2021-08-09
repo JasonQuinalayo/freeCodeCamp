@@ -1,0 +1,55 @@
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
+
+#app {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#session-break {
+  display:flex;
+}
+
+#break {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:20px;
+}
+
+#session {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:20px;
+}
+
+#session-incdec {
+  display:flex;
+}
+
+#break-incdec {
+  display:flex;
+}
+
+#timer {
+  display:flex;
+  flex-direction:column;
+  border:2px solid black;
+  width:200px;
+  justify-content:center;
+  align-items:center;
+}
+
+#timer-label {
+  margin-bottom:-20px;
+  margin-top: 15px;
+}
+
+#icons {
+  margin:20px;
+}
+
+i {
+  margin:0px 10px 0px 10px;
+}
